@@ -1,8 +1,9 @@
-# AndroidKit
+# Android
 Android开发框架（Android development integration tools）
 
 ## 方法一  ARR依赖
-[Android.arr](https://github.com/RelinRan/AndroidKit/blob/master/Android.aar)
+[Android.arr](https://github.com/RelinRan/Android/blob/master/Android.aar)
+[Android DOC](https://github.com/RelinRan/Android/blob/master/doc/index.html)
 ```
 android {
     ....
