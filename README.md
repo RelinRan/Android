@@ -1,9 +1,8 @@
 # Android
 Android开发框架（Android development integration tools）
-
+<a href="https://github.com/RelinRan/Android/blob/master/doc/index.html" target="_blank">Android DOC</a>
 ## 方法一  ARR依赖
 [Android.arr](https://github.com/RelinRan/Android/blob/master/Android.aar)
-[Android DOC](https://github.com/RelinRan/Android/blob/master/doc/index.html)
 ```
 android {
     ....
