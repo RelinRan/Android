@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/android_loading_white_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.android.view.SwipeRequestView
+            android:id="@+id/android_srv"
+            android:layout_width="@dimen/swipe_loading_width"
+            android:layout_height="@dimen/swipe_loading_height"
+            android:layout_centerInParent="true"
+            app:circleColor="@color/color_white"
+            app:shadowColor="@color/color_white" />
+
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/android_srv"
+            android:layout_centerInParent="true"
+            android:text="加载中，请稍后..."
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

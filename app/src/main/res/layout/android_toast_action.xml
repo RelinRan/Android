@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/android_layer_toast_action_bg"
+        android:gravity="center"
+        android:minHeight="@dimen/toast_view_width"
+        android:minWidth="@dimen/toast_view_height"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.android.view.ActionView
+            android:id="@+id/android_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:action_color="@color/colorActionBackground"
+            app:action_radius="18dp"
+            app:action_type="wireless"
+            app:action_wireless_initial_radius="2dp"
+            app:action_wireless_padding="2dp"
+            app:action_wireless_stroke_width="5dp" />
+
+        <TextView
+            android:id="@+id/android_tv_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="连网失败"
+            android:textColor="@color/colorToastText"
+            android:textSize="@dimen/toast_view_text_size"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

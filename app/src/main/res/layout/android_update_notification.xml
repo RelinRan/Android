@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/elvenImgvIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elvenTvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="QQ.apk"
+            android:textColor="#434342"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/elvenProgressbar"
+            style="@style/android_progressbar_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/white"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="80"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/elvenTvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载进度0%"
+            android:layout_marginTop="2dp"
+            android:textColor="#747474"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

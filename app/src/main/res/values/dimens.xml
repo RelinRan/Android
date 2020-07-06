@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="navigation_height">45dp</dimen>
+
+    <dimen name="loading_view_width">80dp</dimen>
+    <dimen name="loading_view_height">80dp</dimen>
+    <dimen name="loading_image_width">28dp</dimen>
+    <dimen name="loading_image_height">28dp</dimen>
+    <dimen name="loading_text_size">12dp</dimen>
+    <dimen name="loading_text_top_padding">5dp</dimen>
+
+    <dimen name="toast_view_width">90dp</dimen>
+    <dimen name="toast_view_height">90dp</dimen>
+    <dimen name="toast_view_text_size">14dp</dimen>
+
+    <dimen name="swipe_loading_width">45dp</dimen>
+    <dimen name="swipe_loading_height">45dp</dimen>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#109AF6</color>
+    <color name="colorPrimaryDark">#109AF6</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDivider">#EEEEEE</color>
+
+    <color name="colorNavigationBar">#656565</color>
+    <color name="colorNavigationBarDivider">#FFFFFF</color>
+
+    <color name="colorButtonUnpressed">#FFFFFF</color>
+    <color name="colorButtonPressed">#F9F9F9</color>
+
+    <color name="colorDialogBackground">#FFFFFF</color>
+    <color name="colorDialogDivider">#EFEFEF</color>
+    <color name="colorDialogText">#434444</color>
+
+    <color name="colorToastBackground">#FFFFFF</color>
+    <color name="colorToastText">#005F91</color>
+    <color name="colorActionBackground">#005F91</color>
+
+    <color name="colorRefreshBackground">#F4F4F4</color>
+    <color name="colorRefreshText">#818181</color>
+
+    <color name="colorLoadingOutside">#80000000</color>
+    <color name="colorLoadingText">#FBFAFA</color>
+    <color name="colorLoadingInsideBackground">#5F000000</color>
+
+    <color name="colorExceptionBackground">#F4F4F4</color>
+    <color name="colorExceptionText">#B6BED3</color>
+    <color name="colorExceptionButton">#B6BED3</color>
+
+    <color name="colorDebugBackground">#29CEAD</color>
+    <color name="colorDebugText">#29CEAD</color>
+
+    <!--#4285F4-->
+    <color name="colorSwipeBlue">#20A5F7</color>
+    <color name="colorSwipeRed">#EA4335</color>
+    <color name="colorSwipeGreen">#34A853</color>
+    <color name="colorSwipeYellow">#FBBC05</color>
+    <color name="colorSwipeShadow">#25808080</color>
+
+    <color name="colorDateTimeSelectorTitleBackground">#F2F2F2</color>
+    <color name="colorDateTimeSelectorText">#0EB692</color>
+    <color name="colorDateTimeSelectorOutside">#AEAEAE</color>
+    <color name="colorDateTimeSelectorDivider">#CDCDCD</color>
+    <color name="colorDateTimeSelectorConfirm">#0EB692</color>
+    <color name="colorDateTimeSelectorCancel">#454545</color>
+    <color name="colorAndroid">#0EB692</color>
+
+    <color name="colorItemSelectorTitleBackground">#F2F2F2</color>
+    <color name="colorItemSelectorText">#0EB692</color>
+    <color name="colorItemSelectorOutside">#AEAEAE</color>
+    <color name="colorItemSelectorDivider">#CDCDCD</color>
+    <color name="colorItemSelectorConfirm">#0EB692</color>
+    <color name="colorItemSelectorCancel">#454545</color>
+
+    <color name="colorTabPressedBackground">#F2F2F2</color>
+
+    <color name="colorVideoBackground">#FF9D01</color>
+    <color name="colorVideoTitle">#FF9D01</color>
+    <color name="colorVideoContent">#585858</color>
+
+    <color name="colorItemDialogBackground">#FFFFFF</color>
+    <color name="colorItemDialogTitleTextBackground">#005F91</color>
+    <color name="colorItemDialogTitleText">#FFFFFF</color>
+    <color name="colorItemDialogTitleMenu">#FFFFFF</color>
+    <color name="colorItemDialogItemText">#005F91</color>
+    <color name="colorItemDialogItemCheck">#005F91</color>
+    <color name="colorItemDialogItemUnCheck">#000000</color>
+
+</resources>

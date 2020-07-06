@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F2F2F2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="取消"
+            android:textColor="@color/colorDateTimeSelectorCancel"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="完成"
+            android:textColor="@color/colorDateTimeSelectorConfirm"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <com.android.view.LoopView
+            android:id="@+id/lv_year"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            su:lv_centerTextColor="@color/colorDateTimeSelectorText"
+            su:lv_dividerTextColor="@color/colorDateTimeSelectorDivider"
+            su:lv_itemsVisibleCount="6"
+            su:lv_outerTextColor="@color/colorDateTimeSelectorOutside"
+            su:lv_textSize="16sp" />
+
+        <com.android.view.LoopView
+            android:id="@+id/lv_month"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            su:lv_centerTextColor="@color/colorDateTimeSelectorText"
+            su:lv_dividerTextColor="@color/colorDateTimeSelectorDivider"
+            su:lv_itemsVisibleCount="6"
+            su:lv_outerTextColor="@color/colorDateTimeSelectorOutside"
+            su:lv_textSize="16sp" />
+
+        <com.android.view.LoopView
+            android:id="@+id/lv_day"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            su:lv_centerTextColor="@color/colorDateTimeSelectorText"
+            su:lv_dividerTextColor="@color/colorDateTimeSelectorDivider"
+            su:lv_itemsVisibleCount="6"
+            su:lv_outerTextColor="@color/colorDateTimeSelectorOutside"
+            su:lv_textSize="16sp" />
+
+        <com.android.view.LoopView
+            android:id="@+id/lv_hour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            su:lv_centerTextColor="@color/colorDateTimeSelectorText"
+            su:lv_dividerTextColor="@color/colorDateTimeSelectorDivider"
+            su:lv_itemsVisibleCount="6"
+            su:lv_outerTextColor="@color/colorDateTimeSelectorOutside"
+            su:lv_textSize="16sp" />
+
+        <com.android.view.LoopView
+            android:id="@+id/lv_minute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            su:lv_centerTextColor="@color/colorDateTimeSelectorText"
+            su:lv_dividerTextColor="@color/colorDateTimeSelectorDivider"
+            su:lv_itemsVisibleCount="6"
+            su:lv_outerTextColor="@color/colorDateTimeSelectorOutside"
+            su:lv_textSize="16sp" />
+
+        <com.android.view.LoopView
+            android:id="@+id/lv_second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            su:lv_centerTextColor="@color/colorDateTimeSelectorText"
+            su:lv_dividerTextColor="@color/colorDateTimeSelectorDivider"
+            su:lv_itemsVisibleCount="6"
+            su:lv_outerTextColor="@color/colorDateTimeSelectorOutside"
+            su:lv_textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

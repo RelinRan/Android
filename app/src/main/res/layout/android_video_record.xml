@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/android_sv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="18dp">
+
+        <ImageView
+            android:id="@+id/android_iv_flash"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:src="@drawable/android_ic_video_flash_uncheck" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Space>
+
+        <TextView
+            android:id="@+id/android_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/android_video_red_dot"
+            android:drawablePadding="8dp"
+            android:gravity="center_horizontal"
+            android:text="00:00"
+            android:textColor="@color/color_white"
+            android:textSize="14sp"></TextView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Space>
+
+        <ImageView
+            android:id="@+id/android_iv_switch"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:src="@drawable/android_ic_video_camera" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/android_ll_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/android_iv_finish"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:src="@drawable/android_ic_video_down" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Space>
+
+        <ImageView
+            android:id="@+id/android_iv_cancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/android_ic_video_cancel" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Space>
+
+        <com.android.view.CircleProgressButton
+            android:id="@+id/android_btn_start"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Space>
+
+        <ImageView
+            android:id="@+id/android_iv_ok"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/android_ic_video_ok" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></Space>
+
+        <View
+            android:id="@+id/v_right"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_dialog_items_bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/android_fl_title"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/android_dialog_items_title_bg">
+
+        <ImageView
+            android:id="@+id/android_iv_icon"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"></ImageView>
+
+        <TextView
+            android:id="@+id/android_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Title"
+            android:textColor="@color/colorItemDialogTitleText"
+            android:textSize="14sp"></TextView>
+
+        <TextView
+            android:id="@+id/android_tv_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorItemDialogTitleMenu"
+            android:textSize="14sp"></TextView>
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/android_lv_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorWhite"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:divider="@color/colorDialogDivider"
+        android:dividerHeight="1dp"></ListView>
+
+</LinearLayout>

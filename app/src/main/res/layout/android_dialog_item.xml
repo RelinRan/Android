@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/android_dialog_items_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/android_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="right|center_vertical"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorItemDialogItemText"
+        android:textSize="13sp"></TextView>
+</LinearLayout>

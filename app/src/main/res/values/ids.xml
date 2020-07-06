@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fake_status_bar_view" type="id" />
+    <item name="translucent_view" type="id" />
+    <item name="nav_back" type="id" />
+    <item name="nav_title" type="id" />
+    <item name="nav_menu" type="id" />
+</resources>

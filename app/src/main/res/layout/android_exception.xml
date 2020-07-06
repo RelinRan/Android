@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorExceptionBackground"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.android.view.ActionView
+            android:id="@+id/android_action_view"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:visibility="gone"
+            app:action_color="@color/colorExceptionText"
+            app:action_type="wireless" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android_ic_net_error" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/android_tv_error_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="网络数据异常，请稍后再试"
+        android:textColor="@color/colorExceptionText"
+        android:textSize="14sp" />
+
+    <com.android.view.ShapeButton
+        android:id="@+id/android_btn_loading"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="重新加载"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:radius="5dp"
+        app:solid="@color/colorExceptionButton" />
+
+</LinearLayout>
