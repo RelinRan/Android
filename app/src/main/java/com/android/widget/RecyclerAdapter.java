@@ -110,7 +110,7 @@ public abstract class RecyclerAdapter<T, VH extends RecyclerAdapter.ViewHolder> 
     public void setItems(List<T> data, boolean notify) {
         this.data = data;
         if (emptyView != null) {
-            emptyView.setVisibility(getItemCount() == 0 ? View.GONE : View.VISIBLE);
+            emptyView.setVisibility(getItemCount() == 0 ? View.VISIBLE : View.GONE);
         }
         if (notify) {
             notifyDataSetChanged();
